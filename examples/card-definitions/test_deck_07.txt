@@ -1,0 +1,80 @@
+#Invalid deck
+Slayer
+Cost: 5
+Attack: 2
+Medic
+Cost: 2
+Heal: 6
+Defense: 2
+
+Starfire
+Cost: 6
+Attack: 6
+Defense: 2
+
+Ironbark
+Cost: 8
+Attack: 8
+Defense: 4
+
+Protector
+Cost: 3
+Defense: 5
+Heal: 2
+
+Multi-shot
+Cost: 4
+Attack: 4
+Defense: 2
+
+Buzzard
+Cost: 3
+Defense: 3
+Heal: 2
+
+Rhino
+Cost: 5
+Attack: 1
+Defense: 4
+
+Holy Light
+Cost: 2
+Heal: 6
+
+Humility
+Cost: 3
+Attack: 2
+Defense: 3
+
+Guardian
+Cost: 7
+Heal: 10
+Defense: 5
+
+Wolf
+Cost: 1
+Attack: 2
+Defense: 1
+
+Explosion
+Cost: 2
+Attack: 3
+
+Sun Cleric
+Cost: 3
+Defense: 3
+Heal: 2
+
+Hunter
+Cost: 3
+Attack: 5
+
+Leader:
+Cost: 4
+Defense: 2
+Heal: 2
+
+Magma
+Cost: 2
+Attack: 2
+Heal: 1

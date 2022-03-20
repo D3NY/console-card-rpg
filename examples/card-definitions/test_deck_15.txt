@@ -1,0 +1,17 @@
+\nSlayer
+Cost: 5
+Attack: 2
+
+Medic
+Cost: 3
+Defense: 2
+
+Starfire
+Cost: 6
+Attack: 6
+Defense: 0
+
+Ironbark
+Cost: 8
+Attack: 8
+Defense: 4

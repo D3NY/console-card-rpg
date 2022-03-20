@@ -1,0 +1,191 @@
+PLAYER ON TURN
+0
+
+PLAYER 1
+Human
+Jakub
+
+15
+5
+13
+
+Magma
+Cost:2
+Attack: 2
+Heal: 1
+
+Recover
+Cost:2
+Mana: 8
+
+Starfire
+Cost:6
+Attack: 6
+Defense: 2
+
+Shield
+Cost:4
+Defense: 8
+Heal: 3
+
+Knight
+Cost:2
+Heal: 3
+Mana: 1
+
+PLAYER 2
+Robot
+Saltibart Fast
+16
+8
+10
+
+Leader:
+Cost:4
+Defense: 2
+Heal: 2
+
+Sentry
+Cost:3
+Defense: 5
+
+Nightblade
+Cost:5
+Defense: 4
+Heal: 4
+
+Rest
+Cost:2
+Mana: 6
+
+Ironbark
+Cost:8
+Attack: 8
+Defense: 4
+
+ACTIVE CARD
+Bandage
+Cost:2
+Defense: 3
+Heal: 1
+
+CARD DECK
+Mage
+Cost:2
+Heal: 1
+Mana: 4
+
+Commander
+Cost:5
+Heal: 2
+Defense: 1
+Mana: 10
+
+Protector
+Cost:3
+Defense: 5
+Heal: 2
+
+Slayer
+Cost:1
+Attack: 2
+
+Fireball
+Cost:3
+Attack: 8
+
+Holy Light
+Cost:2
+Heal: 6
+
+Guardian
+Cost:7
+Heal: 10
+Defense: 5
+
+Buzzard
+Cost:3
+Defense: 3
+Heal: 2
+
+Pistol
+Cost:4
+Attack: 6
+Defense: 1
+
+Rifleman
+Cost:2
+Attack: 2
+Defense: 1
+
+Humility
+Cost:3
+Attack: 2
+Defense: 3
+
+Med kit
+Cost:5
+Heal: 4
+Defense: 3
+Mana: 1
+
+Explosion
+Cost:2
+Attack: 3
+
+Rhino
+Cost:5
+Attack: 1
+Defense: 4
+
+Hunter
+Cost:3
+Attack: 5
+
+Multi-shot
+Cost:4
+Attack: 4
+Defense: 2
+
+Sun Cleric
+Cost:3
+Defense: 3
+Heal: 2
+
+Enrage
+Cost:11
+Attack: 9
+Defense: 2
+
+Medic
+Cost:2
+Heal: 6
+Defense: 2
+
+Grizzly
+Cost:3
+Attack: 3
+Heal: 3
+
+Wolf
+Cost:1
+Attack: 2
+Defense: 1
+
+Yeti
+Cost:1
+Mana: 3
+
+Shotgun
+Cost:1
+Attack: 4
+
+Ogre
+Cost:3
+Heal: 1
+Mana: 7
+
+Bandage
+Cost:2
+Defense: 3
+Heal: 1
