@@ -1,7 +1,7 @@
-= Karetní RPG
+# Karetní RPG
 Autor: Daniel Zábojník
 
-== Zadání
+## Zadání
 
 Naprogramujte engine pro hraní karetního RPG.
 
@@ -20,7 +20,7 @@ Kde lze využít polymorfismus? (doporučené)
 - Ovládání hráče: lokální hráč, umělá inteligence (různé druhy), síťový hráč
 - Uživatelské rozhraní: konzole, ncurses, SDL, OpenGL (různé varianty), ...
 
-== Specifikace
+## Specifikace
 
 V rámci své semestrální práce budu implementovat jednoduché karetní RPG. Na začátku hry je každému z hráčů nastavena počáteční hodnota zdraví na 15, štítu na 5 a many na 10. Dále je náhodným losem určen začínající hráč. Druhý hráč dostane jako kompenzaci 3 many navíc. V průběhu hry se hráči střídají po jednotlivých tazích. V rámci jednoho tahu může hráč použít pouze jednu kartu, pokud však nemá dostatek many, bude přeskočen a na tah se dostává protihráč. Po každém ukončeném tahu se danému hráči přičtou 2 many a také si lízne další kartu z balíčku. V ruce však vždy drží maximálně pět karet. Cílem hry je za pomoci vhodné strategie (hráči si po celou dobu hry uvidí navzájem do karet) a jednotlivých karet z balíčku zničit nepřítele.
 
@@ -61,7 +61,7 @@ $ 2
 ```
 Na hrací ploše nalezneme hodnoty zdraví, štítu a many obou hráčů. Dále jsou pod stavovým řádkem hráče vypsány jednotlivé karty, které hráč drží ve své ruce a na pravé straně je pak zobrazena karta, kterou hráč použil v předchozím tahu.
 
-== Polymorfismus
+## Polymorfismus
 
 Polymorfismus je aplikovaný v rámci hiearchie tříd `CEffect`, která má čtyři potomky `CEffectAttack`, `CEffectDefend`, `CEffectHeal` a `CEffectMana`. Třída `CEffect` má polymorfní metodu `To_String` pro výpis efektu, ale hlavně také mnohem důležitější metodu `ApplyEffect`, která v závislosti na typu efektu aplikuje daný efekt buďto na protihráče nebo hráče, který kartu použil.
 
@@ -69,7 +69,7 @@ K polymorfnímu volání dochází v metodě CCard::UseCard, kde se prochází j
 
 NOTE: Vedlejší polymorfismus budu mít nad třídou `CPlayer`, který má dva potomky `CPlayerHuman` a `CPlayerRobot`. Třída `CPlayer` má polymorfní metodu `Move`, která si vždy vyžádá od konkrétní implementace hráče další tah. Implementace pro skutečného hráče očekává, že se prostřednictvím konzole dotáži na požadovaný tah a ten následně vykonám. Implementace pro robota se naopak pokusí vypočítat ideální tah na základě karet, které má k dispozici a také karet protihráče.
 
-== Možná rozšíření
+## Možná rozšíření
 Jedním z rozšíření, které bych rád realizoval je uživatelsky přívětivější rozhraní viz ukázka níže.
 
 ```
