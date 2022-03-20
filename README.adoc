@@ -1,1 +1,1 @@
-include::zabojdan/zadani.txt[]
+include::zadani.txt[]
